@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Charts drag and drop</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h2>Drag it</h2>
+        <div class="drop-zone origin">
+          <div id="chartdiv" class="chart" draggable="true"></div>
+        </div>
+        <div class="drop-zone origin">
+          <div id="chartdiv2" class="chart" draggable="true"></div>
+        </div>
+        <div class="drop-zone origin">
+          <div id="chartdiv3" class="chart" draggable="true"></div>
+        </div>
+      </div>
+      <div class="dropzones-container">
+        <h2>Drop Here</h2>
+        <div class="dropzones">
+          <div class="drop-zone larg"></div>
+          <div class="drop-zone medium"></div>
+          <div class="drop-zone small"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script src="chart.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
