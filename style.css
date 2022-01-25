@@ -31,12 +31,9 @@
 
 .dropzones-container {
   padding: 1rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   height: 100vh;
   width: 100%;
+  text-align: center;
 }
 .dropzones {
   width: 100%;
